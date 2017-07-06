@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/usr/bin/stress -v --hdd 1 --hdd-bytes 1M -t 60s
+
+
+
