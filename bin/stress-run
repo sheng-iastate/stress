@@ -3,6 +3,7 @@
 mkdir -p /tmp/stress
 cd /tmp/stress
 
+#/usr/bin/stress -v --hdd 1 --hdd-bytes 1M --hdd-noclean -t 60s
 /usr/bin/stress -v --hdd 1 --hdd-bytes 1M --hdd-noclean -t 60s
 
 
