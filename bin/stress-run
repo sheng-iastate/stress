@@ -5,7 +5,7 @@ cd /tmp/stress
 
 #/usr/bin/stress -v --hdd 1 --hdd-bytes 1M --hdd-noclean -t 60s
 #/usr/bin/stress -v --hdd 1 --hdd-bytes 100M -t 300s
-/usr/bin/stress --hdd 2 --hdd-bytes 100M -t 60s
+/usr/bin/stress --hdd 2 --hdd-bytes 100M -t 600s
 
 #keep the pod running for an hour
 sleep 3600
