@@ -1,6 +1,9 @@
 #!/bin/bash
 
-mkdir -p /tmp/stress
+#mkdir -p /tmp/stress
+#cd /tmp/stress
+
+mkdir -p /mnt/gluster/stress
 cd /tmp/stress
 
 #/usr/bin/stress -v --hdd 1 --hdd-bytes 1M --hdd-noclean -t 60s
