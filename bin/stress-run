@@ -3,6 +3,8 @@
 #mkdir -p /tmp/stress
 #cd /tmp/stress
 
+whoami
+
 mkdir -p /mnt/gluster/stress
 cd /mnt/gluster/stress
 
