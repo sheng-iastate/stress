@@ -8,6 +8,11 @@ whoami
 mkdir -p /mnt/gluster/stress
 cd /mnt/gluster/stress
 
+pwd
+
+DATE=`date +%Y-%m-%d--%H-%M-%S`
+touch ${DATE}
+
 #/usr/bin/stress -v --hdd 1 --hdd-bytes 1M --hdd-noclean -t 60s
 /usr/bin/stress -v --hdd 1 --hdd-bytes 1G -t 30s
 #/usr/bin/stress --hdd 2 --hdd-bytes 100M -t 600s
